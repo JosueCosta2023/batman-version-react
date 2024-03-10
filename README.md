@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Projeto `The Batman Publish`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Este projeto consiste em um website que trás informações sobre o filme The Batman de 2022.
 
-## Available Scripts
+#### Este site é um aperfeiçoamento de um antigo projeto realizado somente em html e css. 
+#### Hoje o apresento com react, componentizado e otimizado.
 
-In the project directory, you can run:
+### Pagina Home
+    * Esta página exibe uma imagem do Batman seguida do trailer oficial e a seção de sinopse.
+    * Abaixo temos a seção de Elenco. Listamos 4 atores principais do filme.
 
-### `npm start`
+### Pagina Galeria
+    * Nesta pagina exibimos 12 imagens relacionadas ao universo DC, não necessariamente referentes ao Filme tema do site.
+    * Estas imagens são geradas através de um arquivo Json.
+    * Origem das imagens, pinterest 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Pagina Comentarios
+    * A seção de comentários nos trás os 6 comentários mais relevantes sobre o filme.
+    * Utilizado json para obter uma lista de usuários e comentários.
+    * Abaixo dos comentários temos um formulário para que seja possivel comentar.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pagina Contato
+    * Formulário de contato, validação realizada atraves do useForm()
 
-### `npm test`
+## Estrutura
+### Projeto iniciado com `create-react-app`
+    * Foi criado duas pastas dentro do src, `Components` e `Pages`
+    * Decidi criar todas as minhas pastas e componentes com a estilização esclusiva. Cada pasta tem um arquivo index.js e style.css que se refere ao componente que pertence.
+    * Foi tomado cuidado na criação de classes para que a estilização não entre em conflito.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Demosntração
 
-### `npm run build`
+![The Batman WebPage](./src/assets/images/bat.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Author
+### Josué Ocanha Costa
+#### FrontEnd Developer
+#### Redes Sociais
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Linkedin - [JosueOcanhaCosta](https://www.linkedin.com/in/josue-ocanha-costa/)
+- Github - [JosueCosta2023](https://github.com/JosueCosta2023)
+- Twitter - [@JosueOcanhaCosta](https://twitter.com/josue_ocanha)
+- Facebook - [JosueCosta](https://www.facebook.com/JosueOcanhaCosta2023)
+- Whatsapp - [Josue2023](https://wa.me/5565996408371?text=Ol%C3%A1%2C+encontrei+seu+whatsapp+no+Github.+Gostaria+de+falar+sobre+seus+projetos.)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# "Vida longa e próspera. 🖖🖖🖖"
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    
