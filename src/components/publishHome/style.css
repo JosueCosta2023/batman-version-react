@@ -1,0 +1,101 @@
+.section-container{
+    max-width: 100%;
+    background-color: #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.section-container .banner{
+    background-image: url('../../assets/images/banner.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.section-container .midia-container{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.section-container .midia-container .video{
+    width:50%;
+    height: 100%;
+    
+}
+
+.section-container .midia-container .video source{
+    width: 80%;
+}
+
+.section-container .midia-container .sinopse{
+    width:50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+  
+}
+
+.section-container .midia-container .sinopse p{
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.section-container .midia-container .sinopse button{
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: #B10212;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+.section-container .midia-container .sinopse button:hover{
+    background-color: white;
+    color: #000;
+}
+
+@media(max-width:1024px){
+    .section-container .midia-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 40px;
+    }
+
+    .section-container .midia-container .sinopse{
+        margin-top: 50px;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    .section-container .midia-container{
+        width: 100%;
+        padding: 0;
+    }
+    .section-container .midia-container .video{
+        width:90%;
+        
+    }
+    .section-container .midia-container .sinopse{
+        width:90%
+    }
+    .section-container .midia-container .sinopse button{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}

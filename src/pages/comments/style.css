@@ -1,0 +1,229 @@
+.sectionComments{
+    width: 100%;
+    background: rgb(88,4,9);
+    background: radial-gradient(circle, rgba(88,4,9,1) 51%, rgba(177,2,18,1) 98%);
+    padding: 50px 0px;
+}
+
+.sectionComments .contentComments{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    background-color: black;
+}
+
+.sectionComments .contentComments .sideImage{
+    background-image: url('../../assets/images/batman.png');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    object-fit: cover;
+}
+
+.sectionComments .contentComments .sideImage > img{
+    width: 90%;
+}
+
+.sectionComments .contentComments .sideImage .text{
+    font-size: 20px;
+}
+
+.sectionComments .contentComments .sideCommentary{
+    width: 60%;
+    height: auto;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
+
+.sectionComments .contentComments .sideCommentary .cardCommentary{
+    width: 400px;
+    height: 233px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
+    transition: ease-in-out;
+}
+
+.sectionComments .contentComments .sideCommentary .cardCommentary:hover{
+    transform: scale(1.02);
+}
+
+.cardCommentary .comentario{
+    font-size: 22.7px;
+    margin-bottom: 20px;
+}
+
+.cardCommentary .detalhesUsuario{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+
+.FormCommentsContent{
+    width: 80%;
+    max-width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #330708;
+}
+
+.FormCommentsContent > form{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.FormCommentsContent > form > .content-input{
+    width: 33.3%;
+   
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding-left: 10px;
+   border-radius: 5px;
+   height: 40px;
+}
+
+.FormCommentsContent > form > .content-input > input{
+    width: 70%;
+    font-size: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 100%;
+    padding-left: 5px;
+    
+}
+
+.FormCommentsContent > form > .content-input > label{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    background-color: #E50421;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+}
+
+.FormCommentsContent > form > button{
+    width: 25%;
+    font-size: 20px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background-color:#E50421 ;
+    color: white;
+    border: none;
+   padding: 5px 0;
+}
+
+
+@media(max-width: 1750px){
+    .sectionComments .contentComments .sideCommentary{
+        gap: 20px;
+    }
+    .sectionComments .contentComments .sideCommentary .cardCommentary{
+        width: 90%;
+        height: 233px;
+       
+    }
+    .sectionComments .contentComments .sideCommentary .cardCommentary:last-child
+    {
+       margin-bottom: 20px;
+    }
+
+    
+.FormCommentsContent > form > button{
+    width: 25%;
+    min-height: auto;
+}
+}
+
+@media(max-width: 1024px){
+    .FormCommentsContent > form{
+       flex-direction: column;
+       height: auto;
+    }
+
+    .FormCommentsContent{
+        height: auto;
+        padding: 20px;
+    }
+
+    .FormCommentsContent > form > .content-input{
+        width: 100%;
+    }
+    .FormCommentsContent > form > button{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .sectionComments .contentComments{
+       flex-direction: column;
+    }
+
+    .sectionComments .contentComments .sideImage{
+        width: 100%;
+        height: 400px;
+       margin-bottom: 20px;
+       background-size: 100%;
+       background-position: top;
+       justify-content: flex-end;
+    }
+    .sectionComments .contentComments .sideImage > img{
+        width: 50%;
+    }
+    .sectionComments .contentComments .sideCommentary{
+        width: 100%;
+    }
+
+    .FormCommentsContent > form > .content-input{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .FormCommentsContent > form > .content-input > input{
+        width: 101%;
+        border: none;
+        padding: none;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .FormCommentsContent > form > .content-input > label{
+        width: 100%;
+        border: none;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+    }
+}

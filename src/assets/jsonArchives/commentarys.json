@@ -1,0 +1,41 @@
+{
+    "comentarios": [
+      {
+        "nome_usuario": "Maria",
+        "comentario": "Adorei o novo filme do Batman! As cenas de ação foram incríveis.",
+        "data_comentario": "2024-03-09",
+        "background": "#5E0912"
+      },
+      {
+        "nome_usuario": "João",
+        "comentario": "O filme está muito bem dirigido. Gostei da abordagem sombria.",
+        "data_comentario": "2024-03-08",
+        "background": "#E50421"
+      },
+      {
+        "nome_usuario": "Ana",
+        "comentario": "Robert Pattinson está ótimo no papel principal. Surpreendente!",
+        "data_comentario": "2024-03-08",
+        "background": "#E50421"
+      },
+      {
+        "nome_usuario": "Pedro",
+        "comentario": "Esse Batman tem um estilo único. Muito diferente dos anteriores.",
+        "data_comentario": "2024-03-07",
+        "background": "#330708"
+      },
+      {
+        "nome_usuario": "Carla",
+        "comentario": "O enredo é envolvente e cheio de reviravoltas. Recomendo!",
+        "data_comentario": "2024-03-07",
+        "background": "#5E0912"
+      },
+      {
+        "nome_usuario": "Lucas",
+        "comentario": "Os efeitos visuais são de tirar o fôlego. Vale a pena assistir.",
+        "data_comentario": "2024-03-06",
+        "background": "##E50421"
+      }
+    ]
+  }
+  

@@ -1,0 +1,65 @@
+{
+    "imagens": [
+      {
+        "nome": "Batman em Ação",
+        "url": "https://i.pinimg.com/564x/0e/ac/cf/0eaccf42abcdae91ee7d2adf0e5419b8.jpg",
+        "descricao": "Batman quebrando uma janela."
+      },
+      {
+        "nome": "Batman Observando",
+        "url": "https://i.pinimg.com/564x/aa/dd/61/aadd61e9dc30070fcdddae3a55b28a3b.jpg",
+        "descricao": "Batman observando o bat-sinal."
+      },
+      {
+        "nome": "Batman Andando",
+        "url": "https://i.pinimg.com/736x/fe/20/b7/fe20b77f8c8dca6d448ab965132bbf55.jpg",
+        "descricao": "Batman andando em campos de flores venenosas."
+      },
+      {
+        "nome": "Batman na Chuva",
+        "url": "https://i.pinimg.com/564x/e7/c3/14/e7c31464bc2f09a7884b3a19f814c997.jpg",
+        "descricao": "Batman olhando para frente em meio a tempestade."
+      },
+      {
+        "nome": "Batman vs Coringa",
+        "url": "https://i.pinimg.com/564x/f4/ca/91/f4ca91e06cea12b510a40fcedce32ce5.jpg",
+        "descricao": "Interrogatório"
+      },
+      {
+        "nome": "Coringa",
+        "url": "https://i.pinimg.com/564x/70/81/bc/7081bcd1ec42681a4aac32809dcbf915.jpg",
+        "descricao": "Ilustração HQ Coringa em chamas "
+      },
+      {
+        "nome": "Dark SuperMan",
+        "url": "https://i.pinimg.com/736x/1b/9b/a8/1b9ba8b1a3ba83c930bb06464e5a7c5b.jpg",
+        "descricao": "Superman destruidor"
+      },
+      {
+        "nome": "Batman vs Era Venenosa",
+        "url": "https://i.pinimg.com/564x/b1/59/0d/b1590d38117725e2d412aed2fd685a60.jpg",
+        "descricao": "Batman subjulgado por Era Venenosa"
+      },
+      {
+        "nome": "Arlequina",
+        "url": "https://i.pinimg.com/564x/f2/f7/5e/f2f75e45eda53586c72f77a140cb58d9.jpg",
+        "descricao": "Arlequina Observando"
+      },
+      {
+        "nome": "Batman vs Pinguim",
+        "url": "https://i.pinimg.com/564x/a8/d9/23/a8d92349cea41dcfd9a0e6937aa0be4d.jpg",
+        "descricao": "Pinguim e Bane contra Batman"
+      },
+      {
+        "nome": "Duas Caras",
+        "url": "https://i.pinimg.com/564x/31/63/0a/31630ae812cd719a15abe437f0dcd1fa.jpg",
+        "descricao": "Duas caras em posição"
+      },
+      {
+        "nome": "Mulher Gato",
+        "url": "https://i.pinimg.com/564x/05/21/67/052167304e8a949983fa55321a57ddc2.jpg",
+        "descricao": "Mulher gato observando"
+      }
+    ]
+  }
+  

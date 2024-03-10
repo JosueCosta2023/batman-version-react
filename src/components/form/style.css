@@ -1,0 +1,54 @@
+.sectionContact .content-contact .formulario{
+    width: 1000px;
+    max-width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario .input-default,
+.formulario .input-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .input-default > label,
+.formulario .input-text > label{
+    color: #0000008f;
+}
+
+.formulario .input-default > input{
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.367);
+}
+
+.formulario .input-text > textarea{
+    resize: none;
+    height: 180px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.367);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.formulario .input-default > p,
+.formulario .input-text > p{
+    font-size: 12px;
+    color: red;
+}
+
+.formulario > div > button {
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #5E0912;
+    color: white;
+}
