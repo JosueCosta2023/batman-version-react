@@ -2,7 +2,8 @@
 
 ## Este projeto consiste em um website que trás informações sobre o filme The Batman de 2022.
 
-#### Este site é um aperfeiçoamento de um antigo projeto realizado somente em html e css. 
+#### Este site é um aperfeiçoamento de meu antigo projeto realizado somente em html e css.
+ 
 #### Hoje o apresento com react, componentizado e otimizado.
 
 ### Pagina Home
