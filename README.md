@@ -35,7 +35,7 @@
 
 ### Deploy
 
-[Deploy](https://the-batman-app.netlify.app/)
+[Acessar Página Online](https://the-batman-app.netlify.app/)
 
 # Author
 ### Josué Ocanha Costa
