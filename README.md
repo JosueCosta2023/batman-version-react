@@ -29,9 +29,13 @@
     * Decidi criar todas as minhas pastas e componentes com a estilização esclusiva. Cada pasta tem um arquivo index.js e style.css que se refere ao componente que pertence.
     * Foi tomado cuidado na criação de classes para que a estilização não entre em conflito.
 
-### Demosntração
+### Demonstração
 
 ![The Batman WebPage](./src/assets/images/bat.gif)
+
+### Deploy
+
+[Deploy](https://the-batman-app.netlify.app/)
 
 # Author
 ### Josué Ocanha Costa
